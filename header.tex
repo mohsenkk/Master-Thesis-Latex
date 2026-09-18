@@ -13,3 +13,15 @@
 
 \settextfont[Scale=1]{XB Zar}
 \setdigitfont[Scale=1]{XB Zar}
+
+%----------------------------------------------------------------------
+% شماره‌گذاری به سبک پایان‌نامه‌های فارسی: ۱-۱ به جای ۱.۱
+%----------------------------------------------------------------------
+\renewcommand{\thesection}{\thechapter-\arabic{section}}
+\renewcommand{\thesubsection}{\thesection-\arabic{subsection}}
+\renewcommand{\theequation}{\thechapter-\arabic{equation}}
+\renewcommand{\thetable}{\thechapter-\arabic{table}}
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+
+% اجازه کشش بیشتر به فاصله‌ها برای کاهش سرریز سطرها در متن فارسی
+\setlength{\emergencystretch}{3em}
