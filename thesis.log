@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.9.10)  15 SEP 2026 01:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.9.10)  20 SEP 2026 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,10 +857,7 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 ]
 [11
 
-]) (First-Pages/AbstractFa.tex
-LaTeX Font Info:    Font shape `TU/XBZar(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 8.
- [12
+]) (First-Pages/AbstractFa.tex [12
 
 ])
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
@@ -870,6 +867,8 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
  (thesis.toc
 LaTeX Font Info:    Font shape `TU/XBZar(1)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBZar(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
 
 Overfull \hbox (0.52496pt too wide) detected at line 15
 \TU/XBZar(1)/m/n/12 ۱\TU/XBZar(0)/m/n/12 -‏\TU/XBZar(1)/m/n/12 ۱۰ 
@@ -1204,63 +1203,37 @@ Underfull \hbox (badness 1584) in paragraph at lines 921--921
 \TU/XBZar(0)/m/n/10.95 گزارش‌شده در[]
  []
 
-[54] [55]) (chapter3.tex [56]
-فصل 3.
-) [57
-
-] [58] (thesis.bbl
+[54] [55]) [56] (thesis.bbl
 LaTeX Font Info:    Font shape `TU/XBZar(1)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 4.
+) [57
 
 
-LaTeX Font Warning: Font shape `TU/XBZar(0)/m/sc' undefined
-(Font)              using `TU/XBZar(0)/m/n' instead on input line 148.
-
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 149.
-[59
-
-
-]
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 157.
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--180
-[][] \TU/XBZar(0)/m/sc/10.95 خلیقی، وفا.  زی‌پرشین ([]$[][]$[]): بسته فارسی برا
-ی حروف‌چینی در [][][].[]
- []
-
-LaTeX Font Info:    Font shape `TU/XBZar(1)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 185.
-) [60] (First-Pages/AbstractEn.tex) (First-Pages/First-Page-En.tex [61
+] (First-Pages/AbstractEn.tex)
+(First-Pages/First-Page-En.tex [58
 
 ]
 File: First-Pages/TehUni.png Graphic file (type bmp)
 <First-Pages/TehUni.png>
 File: First-Pages/Eng.png Graphic file (type bmp)
 <First-Pages/Eng.png>
-)
-[62
+) [59
 
 ] (thesis.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 85A31A48F3E62E6A60F5AE2CCD75C884;16407.
+(rerunfilecheck)             Checksum: 5AC3AB6D3BC94D37649867E854A8C800;16155.
  ) 
 Here is how much of TeX's memory you used:
- 15554 strings out of 402560
- 322722 string characters out of 5442271
- 786786 words of memory out of 5000000
- 44375 multiletter control sequences out of 15000+600000
- 636613 words of font info for 153 fonts, out of 8000000 for 9000
+ 15530 strings out of 402560
+ 322124 string characters out of 5442271
+ 786210 words of memory out of 5000000
+ 44357 multiletter control sequences out of 15000+600000
+ 636589 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 92i,16n,96p,1563b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,16n,96p,1230b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (62 pages).
+Output written on thesis.pdf (59 pages).

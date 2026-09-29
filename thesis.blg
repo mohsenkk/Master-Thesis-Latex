@@ -5,48 +5,57 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: acm-fa.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: MyReferences.bib
+Warning--I didn't find a database entry for "Omidali82phdThesis"
+Warning--I didn't find a database entry for "Vahedi87"
+Warning--I didn't find a database entry for "Amintoosi87afzayesh"
+Warning--I didn't find a database entry for "Pedram80osool"
+Warning--I didn't find a database entry for "Khalighi07MscThesis"
+Warning--I didn't find a database entry for "Khalighi87xepersian"
+Warning--I didn't find a database entry for "Gonzalez02book"
+Warning--I didn't find a database entry for "Baker02limits"
 -- acm-fa.bst version 0.6 (2011/07/01) 
 -- This is a BibTeX style for XePersian: http://www.parsilatex.com
 
 Done.
-You've used 19 entries,
+You've used 11 entries,
             2725 wiz_defined-function locations,
-            798 strings with 9122 characters,
-and the built_in function-call counts, 7269 in all, are:
-= -- 646
-> -- 328
-< -- 2
-+ -- 135
-- -- 115
-* -- 553
-:= -- 1069
-add.period$ -- 58
-call.type$ -- 19
-change.case$ -- 160
+            747 strings with 7710 characters,
+and the built_in function-call counts, 4626 in all, are:
+= -- 373
+> -- 242
+< -- 1
++ -- 100
+- -- 88
+* -- 388
+:= -- 684
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 219
-empty$ -- 500
-format.name$ -- 115
-if$ -- 1734
+cite$ -- 11
+duplicate$ -- 120
+empty$ -- 302
+format.name$ -- 88
+if$ -- 1101
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 240
-newline$ -- 163
-num.names$ -- 41
-pop$ -- 116
+int.to.str$ -- 11
+missing$ -- 157
+newline$ -- 105
+num.names$ -- 22
+pop$ -- 76
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 66
 quote$ -- 0
-skip$ -- 128
+skip$ -- 59
 stack$ -- 0
-substring$ -- 363
-swap$ -- 47
-text.length$ -- 2
+substring$ -- 245
+swap$ -- 23
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 4
-type$ -- 72
+type$ -- 44
 warning$ -- 0
-while$ -- 59
-width$ -- 21
-write$ -- 244
+while$ -- 35
+width$ -- 13
+write$ -- 145
+(There were 8 warnings)

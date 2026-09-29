@@ -76,4 +76,3 @@
 \contentsline {section}{\numberline {2-38}مقایسه \lr {Co-VAE} و \lr {DCGAN-DTA}}{54}{section.2.38}%
 \contentsline {section}{\numberline {2-39}جایگاه پژوهش حاضر}{54}{section.2.39}%
 \contentsline {section}{\numberline {2-40}جمع‌بندی فصل}{56}{section.2.40}%
-\contentsline {chapter}{\numberline {3}مدیریت مراجع و منابع تحقیق}{57}{chapter.3}%

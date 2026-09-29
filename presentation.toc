@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{تعریف مسئله}{3}{0}{1}
+\beamer@sectionintoc {2}{مسیر پژوهشی}{12}{0}{2}
+\beamer@sectionintoc {3}{مقاله‌ی اول: \lr {DCGAN-DTA}}{23}{0}{3}
+\beamer@sectionintoc {4}{مقاله‌ی دوم: \lr {Co-VAE}}{26}{0}{4}
+\beamer@sectionintoc {5}{مقایسه و خلأ پژوهشی}{29}{0}{5}
+\beamer@sectionintoc {6}{نوآوری پیشنهادی}{32}{0}{6}
