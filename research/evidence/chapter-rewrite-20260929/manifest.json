@@ -1,0 +1,508 @@
+{
+  "date": "2026-09-29",
+  "scope": "Full working rewrite chapter1 and chapter2; no experimental combined-method results",
+  "sources": {
+    "gan": {
+      "path": "C:\\Users\\Snapp\\Downloads\\NIPS-2014-generative-adversarial-nets-Paper.pdf",
+      "sha256": "331961622a2f6588c48a34ecddc6a3d052ffe8fcfba333f233d5f27b2da5565d",
+      "pages": 9,
+      "bibtex_key": "Goodfellow14GAN",
+      "doi": null,
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+      "visually_inspected_relevant_pages": [
+        3,
+        4
+      ]
+    },
+    "vae": {
+      "path": "D:\\ut\\thesis\\refferences\\Auto-Encoding Variational bayes.pdf",
+      "sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+      "pages": 14,
+      "bibtex_key": "Kingma14VAE",
+      "doi": "10.48550/arXiv.1312.6114",
+      "primary_url": "https://arxiv.org/abs/1312.6114",
+      "visually_inspected_relevant_pages": [
+        2,
+        3,
+        5
+      ]
+    },
+    "dcgan": {
+      "path": "D:\\ut\\thesis\\refferences\\final\\GAN-vs-VAE-\\DCGAN-DTA\\paper.pdf",
+      "sha256": "d818f9e9bdb37df27cfbfd25ef858400e87ac3670dbe2132c63785be5a5bd975",
+      "pages": 16,
+      "bibtex_key": "Kalemati24DCGANDTA",
+      "doi": "10.1186/s12864-024-10326-x",
+      "primary_url": "https://link.springer.com/article/10.1186/s12864-024-10326-x",
+      "visually_inspected_relevant_pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "covae": {
+      "path": "D:\\ut\\thesis\\refferences\\final\\GAN-vs-VAE-\\Co-VAE\\papaer.pdf",
+      "sha256": "3cc576be305f49b1ae65138c3d853d5656bfb462e6b8ebe7fe40b01567091de8",
+      "pages": 13,
+      "bibtex_key": "Li22CoVAE",
+      "doi": "10.1109/TPAMI.2021.3120428",
+      "primary_url": "https://doi.org/10.1109/TPAMI.2021.3120428",
+      "visually_inspected_relevant_pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    "mae": {
+      "path": "C:\\Users\\Snapp\\Downloads\\gmd-7-1247-2014.pdf",
+      "sha256": "0235f3500557b8902ae932c82bdffb7f2c18c03e111cb5f489b7c39f0198a73b",
+      "pages": 4,
+      "bibtex_key": "Chai14Errors",
+      "doi": "10.5194/gmd-7-1247-2014",
+      "primary_url": "https://gmd.copernicus.org/articles/7/1247/2014/",
+      "visually_inspected_relevant_pages": [
+        2
+      ]
+    },
+    "radford": {
+      "path": "C:\\Users\\Snapp\\Downloads\\1511.06434v2.pdf",
+      "sha256": "01f7475f7cdad32c05aeaee6de61031702e7325097c82889d1c3537848642f11",
+      "pages": 16,
+      "bibtex_key": "Radford16DCGAN",
+      "doi": "10.48550/arXiv.1511.06434",
+      "primary_url": "https://arxiv.org/abs/1511.06434",
+      "visually_inspected_relevant_pages": [
+        4
+      ],
+      "text_inspected_relevant_pages": [
+        3,
+        4
+      ],
+      "version": "arXiv v2, 7 January 2016; header says under review at ICLR 2016"
+    }
+  },
+  "figures": [
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\gan-training.png",
+      "source_ids": [
+        "gan"
+      ],
+      "source_locator": "Eq. 1; Algorithm 1",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "type": "independent concept diagram",
+      "pixels": [
+        4267,
+        2400
+      ],
+      "sha256": "35a6d376bdfe30fd48879303243a36358aa3a0ab16f0bd5f28742255de148cf5",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\gan-training.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\dcgan-generator.png",
+      "source_ids": [
+        "radford"
+      ],
+      "source_locator": "Figure 1",
+      "pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        4
+      ],
+      "type": "independent redraw of image-generator dimensions",
+      "pixels": [
+        4267,
+        2027
+      ],
+      "sha256": "955b51f9a96a9509b74be0588e60e289ab92a8c4d79865b0de0ca915e3a6cb89",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\dcgan-generator.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\vae-reparameterization.png",
+      "source_ids": [
+        "vae"
+      ],
+      "source_locator": "Figure 1; sampling expression in Eq. 10",
+      "pdf_pages": [
+        2,
+        5
+      ],
+      "printed_pages": [
+        2,
+        5
+      ],
+      "type": "independent concept diagram",
+      "pixels": [
+        4267,
+        2373
+      ],
+      "sha256": "206b7e7565ca0f33741f17245ab143f85a63a132d47b631be5b6c090e71b10a3",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\vae-reparameterization.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\dcgan-dta-workflow.png",
+      "source_ids": [
+        "dcgan"
+      ],
+      "source_locator": "Method; Figure 1",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "printed_pages": [
+        4,
+        5
+      ],
+      "type": "independent process diagram",
+      "pixels": [
+        4267,
+        2560
+      ],
+      "sha256": "8ce0c04ef39504b9cd20c9b0c9fb14ffe5e68f61e532c1196c171ff5be661ba5",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\dcgan-dta-workflow.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\co-vae-architecture.png",
+      "source_ids": [
+        "covae"
+      ],
+      "source_locator": "Figure 4 and architecture description",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        8866
+      ],
+      "type": "independent architecture diagram",
+      "pixels": [
+        4267,
+        2907
+      ],
+      "sha256": "84cdd7115bf0dcac6ac63af7d26a6feb405cbd63398114f1571a3ce1674cbbb4",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\co-vae-architecture.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\co-vae-joint-objective.png",
+      "source_ids": [
+        "covae"
+      ],
+      "source_locator": "Equation 5",
+      "pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        8864
+      ],
+      "type": "independent probabilistic/objective diagram",
+      "pixels": [
+        4267,
+        2453
+      ],
+      "sha256": "048e09fa0905414f416d705b88ada8596d6de6adfe1078d6a67c810beba6a808",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\co-vae-joint-objective.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\co-vae-cold-splits.png",
+      "source_ids": [
+        "covae"
+      ],
+      "source_locator": "Figure 6; section 3.3",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        8867
+      ],
+      "type": "independent schematic; colours indicate data roles, not affinity",
+      "pixels": [
+        4267,
+        2267
+      ],
+      "sha256": "317aad9ac82eb789eaadf30114b33bb979560d1de906b9784f1c47471263fa21",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\co-vae-cold-splits.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\metric-mse-mae.png",
+      "source_ids": [
+        "dcgan",
+        "mae"
+      ],
+      "source_locator": "Eq. 3; Eq. 1",
+      "pdf_pages": [
+        6,
+        2
+      ],
+      "printed_pages": [
+        6,
+        1248
+      ],
+      "type": "author analytic curves, no measured data",
+      "pixels": [
+        4267,
+        2293
+      ],
+      "sha256": "f7249b3ed5bdd8832f316489cda2a2ef0b612ae86d2e377e496c87c2f2ec102a",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\metric-mse-mae.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\metric-ci-pairs.png",
+      "source_ids": [
+        "dcgan"
+      ],
+      "source_locator": "Eqs. 1-2",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        6
+      ],
+      "type": "independent pair-scoring diagram",
+      "pixels": [
+        4267,
+        2187
+      ],
+      "sha256": "8bf56af5ec1c6853e526f692140911c3244d01c0dd6cadd1e61ec88036535e0f",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\metric-ci-pairs.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\metric-rm2.png",
+      "source_ids": [
+        "dcgan"
+      ],
+      "source_locator": "Equation 4",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        6
+      ],
+      "type": "independent expression diagram; no fitted data",
+      "pixels": [
+        4267,
+        1813
+      ],
+      "sha256": "346396d67f602fe415e0180980d12672012abb45d11be6efcec6c45fd7030cf2",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "svg_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\metric-rm2.svg",
+      "license_status": "independently drawn factual/conceptual diagram; original graphic not republished"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\dcgan-dta-figure-2-results.png",
+      "source_ids": [
+        "dcgan"
+      ],
+      "source_locator": "Figure 2",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        7
+      ],
+      "type": "original crop including full caption",
+      "pixels": [
+        2075,
+        2071
+      ],
+      "sha256": "60e64c084b66d28b003b792f5700d3d0305e5c5304c4d218dee1989b61199e74",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "dpi": 300,
+      "crop_pixels_at_300dpi": [
+        204,
+        329,
+        2075,
+        2071
+      ],
+      "crop_coordinate_format": "x,y,width,height; top-left page origin",
+      "crop_points": [
+        48.96,
+        78.96,
+        546.96,
+        576.0
+      ],
+      "figure_exclusion_seen": false,
+      "change": "page crop only; figure not altered",
+      "latex_display_trim_bp_lbrt": [
+        61,
+        26,
+        62,
+        0
+      ],
+      "display_change": "original asset retains original caption; LaTeX trims margins and original English caption, uses Persian caption; all graphic panels retained"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\chapter2\\dcgan-dta-figure-3-results.png",
+      "source_ids": [
+        "dcgan"
+      ],
+      "source_locator": "Figure 3",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        8
+      ],
+      "type": "original crop including full caption",
+      "pixels": [
+        2075,
+        2108
+      ],
+      "sha256": "017f4a6e8a3b6126bd70d6ecf7ae6af95cc0e30bebc539839d3f3e97fc37ee00",
+      "visual_qa": "passed: complete, legible labels and arrows; Persian caption supplied in chapter2.tex",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "dpi": 300,
+      "crop_pixels_at_300dpi": [
+        204,
+        329,
+        2075,
+        2108
+      ],
+      "crop_coordinate_format": "x,y,width,height; top-left page origin",
+      "crop_points": [
+        48.96,
+        78.96,
+        546.96,
+        584.88
+      ],
+      "figure_exclusion_seen": false,
+      "change": "page crop only; figure not altered",
+      "latex_display_trim_bp_lbrt": [
+        61,
+        25,
+        62,
+        0
+      ],
+      "display_change": "original asset retains original caption; LaTeX trims margins and original English caption, uses Persian caption; all graphic panels retained"
+    },
+    {
+      "path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\Figures\\dcgan-dta-figure-1.png",
+      "source_ids": [
+        "dcgan"
+      ],
+      "source_locator": "Figure 1",
+      "pdf_pages": [
+        5
+      ],
+      "printed_pages": [
+        5
+      ],
+      "type": "existing original crop retained",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "bbox_points_top_left": [
+        49,
+        55,
+        542,
+        699
+      ],
+      "visual_qa": "previous evidence package and thesis page inspection",
+      "sha256": "6087170d51a3d64ea979a7df130dbe1b0c8a200430114222fd7ae6fe4f51cf35",
+      "latex_display_trim_bp_lbrt": [
+        66,
+        98,
+        62,
+        24
+      ],
+      "display_change": "original asset retains original caption; LaTeX trims margins and original English caption, uses Persian caption; all graphic panels retained"
+    }
+  ],
+  "run_metric_provenance": [
+    {
+      "path": "D:\\ut\\thesis\\refferences\\final\\GAN-vs-VAE-\\audit\\09-baseline-reproduction\\DCGAN-results\\stage09a_full\\summary.json",
+      "model": "DCGAN-DTA",
+      "dataset": "PDBbind",
+      "metric_fields": [
+        "test.metrics.global_ci",
+        "test.metrics.mse",
+        "test.metrics.aupr",
+        "test.metrics.rm2",
+        "test.metrics.mae_diagnostic"
+      ],
+      "role": "metric inventory only, not common benchmark",
+      "sha256": "5985f592949b735efbd8991a42c106c11b48d78edbb5cec39741a2f8685a80dc",
+      "actual_metric_fields": [
+        "global_ci",
+        "mse",
+        "aupr",
+        "rm2",
+        "mae_diagnostic",
+        "prediction_count",
+        "native_ci",
+        "native_ci_reconstructed_from_single_pass",
+        "native_ci_method"
+      ]
+    },
+    {
+      "path": "D:\\ut\\thesis\\refferences\\final\\GAN-vs-VAE-\\audit\\09-baseline-reproduction\\CoVAE-resluts\\stage09b_full\\final_summary.json",
+      "model": "Co-VAE",
+      "dataset": "Davis",
+      "metric_fields": [
+        "native_test_metrics.CI",
+        "native_test_metrics.MSE",
+        "native_test_metrics.RM2",
+        "native_test_metrics.ROC_AUC_pKd_gt_7",
+        "external_checks.external_mae"
+      ],
+      "role": "metric inventory only, MAE external diagnostic",
+      "sha256": "ac7d00e439561dccc111a11bfd200b0d419d162ea7e1f06c7fbf44489fa5e4ed",
+      "actual_native_metric_fields": [
+        "CI",
+        "MSE",
+        "RM2",
+        "ROC_AUC_pKd_gt_7"
+      ],
+      "actual_external_check_fields": [
+        "external_mse",
+        "external_mae",
+        "external_global_ci_native_estimator",
+        "ci_scope",
+        "prediction_stats",
+        "target_stats"
+      ]
+    }
+  ],
+  "original_ieee_images_in_repository": false,
+  "original_image_scratch": "C:\\Users\\Snapp\\.codex\\visualizations\\2026\\09\\29\\01a0ebca-1d8f-7c70-a966-7068148acd63\\thesis-figures-20260929",
+  "limitations": [
+    "Original GraphDTA PDF unavailable; full publisher HTML used",
+    "DeepDTA PDF text accessible but page-image validation unavailable; no original architecture image inserted",
+    "Browser auto-review denied subsequent GraphDTA access due usage limit; not bypassed",
+    "Original IEEE republication permission not obtained",
+    "DCGAN-DTA FC figure/prose mismatch unresolved",
+    "Co-VAE printed MSE/MAE omit 1/n",
+    "rm2 source printed without absolute value; implementation convention unresolved"
+  ]
+}

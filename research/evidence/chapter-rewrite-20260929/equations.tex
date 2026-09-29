@@ -1,0 +1,129 @@
+% Evidence transcriptions only; source provenance in manifest.json.
+% Do not input this file automatically: labels duplicate the chapter labels.
+% Author's problem notation; not an article equation
+\begin{equation}
+\mathcal{D}=\{(d_i,t_i,y_i)\}_{i=1}^{n},
+\qquad
+\widehat{y}_i=f_\theta(d_i,t_i)
+\label{eq:dataset}
+\end{equation}
+
+% Author notation for molar logarithmic convention; Bento14ChEMBL
+\begin{equation}
+pX=-\log_{10}\!\left(\frac{X}{1\,\mathrm{mol\,L^{-1}}}\right).
+\label{eq:log-affinity}
+\end{equation}
+
+% Author unit conversion from preceding definition; not separate article equation
+\begin{equation}
+pX=-\log_{10}(x_{\mathrm{nM}}\times10^{-9})
+=9-\log_{10}(x_{\mathrm{nM}}).
+\label{eq:nm-affinity}
+\end{equation}
+
+% Goodfellow14GAN Eq. 1, PDF / printed 3; visual match verified
+\begin{equation}
+\min_G\max_D V(D,G)=
+\mathbb{E}_{x\sim p_{\mathrm{data}}(x)}[\log D(x)]
++\mathbb{E}_{z\sim p_z(z)}[\log(1-D(G(z)))].
+\label{eq:gan-minimax}
+\end{equation}
+
+% Kingma14VAE Eq. 3, PDF / printed 3; visual match verified
+\begin{equation}
+\mathcal{L}(\theta,\phi;x^{(i)})
+=-D_{\mathrm{KL}}\!\left(q_\phi(z\mid x^{(i)})\Vert p_\theta(z)\right)
++\mathbb{E}_{q_\phi(z\mid x^{(i)})}
+[\log p_\theta(x^{(i)}\mid z)].
+\label{eq:vae-elbo}
+\end{equation}
+
+% Kingma14VAE sampling line of Eq. 10, PDF / printed 5; visual match verified
+\begin{equation}
+z^{(i,l)}=\mu^{(i)}+\sigma^{(i)}\odot\epsilon^{(l)},
+\qquad \epsilon^{(l)}\sim\mathcal{N}(0,I)
+\label{eq:vae-reparameterization}
+\end{equation}
+
+% Li22CoVAE Eq. 5, PDF 4 / printed 8864; split presentation, visual match verified
+\begin{equation}
+\begin{aligned}
+\log p_\theta(\mathbf{x}_d^i,\mathbf{x}_t^i,y^i)
+&\geq \mathcal{L}(\theta,\phi;\mathbf{x}_d^i,\mathbf{x}_t^i,y^i),\\
+\mathcal{L}
+&=\mathcal{L}_{\mathrm{DrugVAE}}
++\mathcal{L}_{\mathrm{TargetVAE}}
++\mathcal{L}_{\mathrm{CoREG}}.
+\end{aligned}
+\label{eq:covae-elbo}
+\end{equation}
+
+% Li22CoVAE Eq. 5, PDF 4 / printed 8864; split presentation, visual match verified
+\begin{equation}
+\begin{aligned}
+\mathcal{L}_{\mathrm{DrugVAE}}
+&=\mathbb{E}_{q_{\phi_d}(\mathbf{z}_d\mid\mathbf{x}_d^i)}
+[\log p_{\theta_d}(\mathbf{x}_d^i\mid\mathbf{z}_d)]\\
+&\quad-D_{\mathrm{KL}}\!\left(
+q_{\phi_d}(\mathbf{z}_d\mid\mathbf{x}_d^i)
+\Vert p_{\theta_d}(\mathbf{z}_d)\right),\\
+\mathcal{L}_{\mathrm{TargetVAE}}
+&=\mathbb{E}_{q_{\phi_t}(\mathbf{z}_t\mid\mathbf{x}_t^i)}
+[\log p_{\theta_t}(\mathbf{x}_t^i\mid\mathbf{z}_t)]\\
+&\quad-D_{\mathrm{KL}}\!\left(
+q_{\phi_t}(\mathbf{z}_t\mid\mathbf{x}_t^i)
+\Vert p_{\theta_t}(\mathbf{z}_t)\right),\\
+\mathcal{L}_{\mathrm{CoREG}}
+&=\mathbb{E}_{q_\phi(\mathbf{z}_d,\mathbf{z}_t\mid
+\mathbf{x}_d^i,\mathbf{x}_t^i)}
+[\log p_{\theta_y}(y^i\mid\mathbf{z}_d,\mathbf{z}_t)].
+\end{aligned}
+\label{eq:covae-components}
+\end{equation}
+
+% Kalemati24DCGANDTA Eq. 3, PDF / printed 6; evaluation, not GAN loss
+\begin{equation}
+\mathrm{MSE}=\frac{1}{n}\sum_{i=1}^{n}(P_i-Y_i)^2.
+\label{eq:mse}
+\end{equation}
+
+% Chai14Errors Eq. 1, PDF 2 / printed 1248; e_i = P_i - Y_i; visual match verified
+\begin{equation}
+\mathrm{MAE}=\frac{1}{n}\sum_{i=1}^{n}|P_i-Y_i|.
+\label{eq:mae}
+\end{equation}
+
+% Kalemati24DCGANDTA Eqs. 1-2, PDF / printed 6; notation harmonized, visual match verified
+\begin{equation}
+\mathrm{CI}=\frac{1}{Z}\sum_{Y_i>Y_j}h(P_i-P_j),
+\qquad
+h(u)=
+\begin{cases}
+1,&u>0,\\
+0.5,&u=0,\\
+0,&u<0.
+\end{cases}
+\label{eq:ci}
+\end{equation}
+
+% Kalemati24DCGANDTA Eq. 4, PDF / printed 6; no absolute value added; visual match verified
+\begin{equation}
+r_m^2=r^2\left(1-\sqrt{r^2-r_0^2}\right).
+\label{eq:rm2}
+\end{equation}
+
+% Author notation for Saito15PR Table 1 definitions; full HTML read, PDF visual match not claimed
+\begin{equation}
+\mathrm{Precision}=\frac{\mathrm{TP}}{\mathrm{TP}+\mathrm{FP}},
+\qquad
+\mathrm{Recall}=\frac{\mathrm{TP}}{\mathrm{TP}+\mathrm{FN}}.
+\label{eq:precision-recall}
+\end{equation}
+
+% Author notation for mathematical convexity definition; Boyd04ConvexOptimization; not proposed objective
+\begin{equation}
+f(\lambda u+(1-\lambda)v)
+\leq \lambda f(u)+(1-\lambda)f(v).
+\label{eq:convex-definition}
+\end{equation}
+

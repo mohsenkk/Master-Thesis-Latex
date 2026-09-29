@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="890" viewBox="0 0 1600 890">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#456375"/></marker></defs>
+<rect width="1600" height="890" fill="white"/>
+<text x="800.0" y="59" font-family="Arial, DejaVu Sans, sans-serif" font-size="43" fill="#15354a" text-anchor="middle" font-weight="bold">VAE: inference, sampling and reconstruction</text>
+<text x="800.0" y="106" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#557084" text-anchor="middle" font-weight="normal">Independent explanation — AEVB, Figure 1 and the sampling expression in Eq. 10</text>
+<text x="260" y="170" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" fill="#15354a" text-anchor="middle" font-weight="bold">Probabilistic dependencies</text>
+<circle cx="270" cy="280" r="60" fill="white" stroke="#147d87" stroke-width="3"/>
+<text x="270" y="291.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#147d87" text-anchor="middle" font-weight="normal">z</text>
+<circle cx="270" cy="565" r="60" fill="#e9eef3" stroke="#3c6eaf" stroke-width="3"/>
+<text x="270" y="576.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#3c6eaf" text-anchor="middle" font-weight="normal">x</text>
+<text x="270" y="199" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#15354a" text-anchor="middle" font-weight="normal">pθ(z)</text>
+<polyline points="325,310 405,355 405,490 325,535" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<text x="420" y="421" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#15354a" text-anchor="start" font-weight="normal">pθ(x|z)</text>
+<polyline points="215,530 175,490 175,355 215,315" fill="none" stroke="#8061a8" stroke-width="3" marker-end="url(#arr)" stroke-dasharray="12 9"/>
+<text x="85" y="421" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#15354a" text-anchor="middle" font-weight="normal">qφ(z|x)</text>
+<text x="270" y="695" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#15354a" text-anchor="middle" font-weight="normal">solid: generative</text>
+<text x="270" y="745" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">dashed: inference</text>
+<rect x="630" y="215" width="170" height="100" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="715.0" y="275.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Input x</text>
+<rect x="855" y="215" width="240" height="100" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="975.0" y="256.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">Encoder</text>
+<text x="975.0" y="295.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">qφ(z|x)</text>
+<rect x="1170" y="215" width="285" height="100" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="1312.5" y="256.3" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#147d87" text-anchor="middle" font-weight="normal">μ(x), σ(x)</text>
+<text x="1312.5" y="294.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#147d87" text-anchor="middle" font-weight="normal">mean / std. dev.</text>
+<polyline points="800,265 855,265" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1095,265 1170,265" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="630" y="455" width="170" height="100" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="715.0" y="496.29999999999995" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Noise ε</text>
+<text x="715.0" y="534.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#3c6eaf" text-anchor="middle" font-weight="normal">ε ~ N(0,I)</text>
+<rect x="870" y="440" width="360" height="130" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="1050.0" y="495.70000000000005" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" fill="#147d87" text-anchor="middle" font-weight="normal">Reparameterization</text>
+<text x="1050.0" y="536.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" fill="#147d87" text-anchor="middle" font-weight="normal">z = μ + σ ⊙ ε</text>
+<polyline points="800,505 870,505" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1312,315 1312,380 1050,380 1050,440" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1290" y="440" width="235" height="130" rx="16" fill="#fff7ed" stroke="#bd7025" stroke-width="3"/>
+<text x="1407.5" y="496.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">Decoder</text>
+<text x="1407.5" y="535.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">pθ(x|z)</text>
+<polyline points="1230,505 1290,505" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1290" y="660" width="235" height="100" rx="16" fill="#fff7ed" stroke="#bd7025" stroke-width="3"/>
+<text x="1407.5" y="701.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">Reconstruction</text>
+<text x="1407.5" y="740.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">x̂</text>
+<polyline points="1407,570 1407,660" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<text x="1060" y="835" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#15354a" text-anchor="middle" font-weight="normal">ELBO: expected log-likelihood − KL; maximize.</text>
+</svg>

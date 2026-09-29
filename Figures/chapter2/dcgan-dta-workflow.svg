@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#456375"/></marker></defs>
+<rect width="1600" height="960" fill="white"/>
+<text x="800.0" y="59" font-family="Arial, DejaVu Sans, sans-serif" font-size="43" fill="#15354a" text-anchor="middle" font-weight="bold">DCGAN-DTA: pretraining and affinity prediction</text>
+<text x="800.0" y="106" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#557084" text-anchor="middle" font-weight="normal">Independent process explanation — method description and Figure 1 (Kalemati et al., 2024)</text>
+<text x="800" y="167" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#15354a" text-anchor="middle" font-weight="bold">Unlabelled representation-learning stage</text>
+<rect x="65" y="210" width="365" height="130" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="247.5" y="266.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">ChEMBL / UniProt</text>
+<text x="247.5" y="305.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">unlabelled sequences</text>
+<rect x="535" y="210" width="410" height="130" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="740.0" y="266.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">Adversarial training</text>
+<text x="740.0" y="305.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">generator + discriminator</text>
+<rect x="1065" y="210" width="455" height="130" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="1292.5" y="266.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">Pretrained representation</text>
+<text x="1292.5" y="305.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">networks</text>
+<polyline points="430,275 535,275" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="945,275 1065,275" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<text x="800" y="430" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#15354a" text-anchor="middle" font-weight="bold">Drug–target affinity-prediction stage</text>
+<rect x="40" y="515" width="240" height="150" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="160.0" y="581.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Drug SMILES +</text>
+<text x="160.0" y="620.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">protein sequence</text>
+<rect x="335" y="515" width="270" height="150" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="470.0" y="581.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Encoding +</text>
+<text x="470.0" y="620.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">embedding</text>
+<rect x="660" y="515" width="340" height="150" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="830.0" y="561.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">Feature extraction</text>
+<text x="830.0" y="600.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">pretrained DCGAN</text>
+<text x="830.0" y="639.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">and CNN blocks</text>
+<rect x="1060" y="515" width="160" height="150" rx="16" fill="#fff7ed" stroke="#bd7025" stroke-width="3"/>
+<text x="1140.0" y="581.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">Add</text>
+<text x="1140.0" y="620.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">merge</text>
+<rect x="1280" y="515" width="280" height="150" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="1420.0" y="581.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">FC regression</text>
+<text x="1420.0" y="620.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">block</text>
+<polyline points="280,590 335,590" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="605,590 660,590" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1000,590 1060,590" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1220,590 1280,590" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1292,340 1292,370 1570,370 1570,470 830,470 830,515" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1270" y="770" width="295" height="100" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="1417.5" y="811.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Predicted affinity</text>
+<text x="1417.5" y="850.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">ŷ</text>
+<polyline points="1420,665 1420,770" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<text x="650" y="825" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#15354a" text-anchor="middle" font-weight="normal">This diagram does not specify the disputed FC widths.</text>
+<text x="650" y="875" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#15354a" text-anchor="middle" font-weight="normal">The paper&#x27;s MSE equation is an evaluation metric.</text>
+</svg>

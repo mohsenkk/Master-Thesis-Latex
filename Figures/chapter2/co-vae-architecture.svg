@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1090" viewBox="0 0 1600 1090">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#456375"/></marker></defs>
+<rect width="1600" height="1090" fill="white"/>
+<text x="800.0" y="59" font-family="Arial, DejaVu Sans, sans-serif" font-size="43" fill="#15354a" text-anchor="middle" font-weight="bold">Co-VAE: five functional components</text>
+<text x="800.0" y="106" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#557084" text-anchor="middle" font-weight="normal">Independent architecture explanation — Li et al. (2022), Figure 4</text>
+<rect x="60" y="155" width="235" height="110" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="177.5" y="184.35" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Drug input</text>
+<text x="177.5" y="219.45" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" fill="#3c6eaf" text-anchor="middle" font-weight="normal">xd</text>
+<text x="177.5" y="254.55" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" fill="#3c6eaf" text-anchor="middle" font-weight="normal">SMILES</text>
+<rect x="365" y="115" width="410" height="190" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="570.0" y="144.75" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">Drug encoder</text>
+<text x="570.0" y="182.45" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">Label + embedding</text>
+<text x="570.0" y="220.15" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">3 gated conv</text>
+<text x="570.0" y="257.85" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">max pool → FC</text>
+<text x="570.0" y="295.55" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">μd, σd</text>
+<rect x="875" y="155" width="220" height="110" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="985.0" y="201.3" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#147d87" text-anchor="middle" font-weight="normal">zd</text>
+<text x="985.0" y="239.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#147d87" text-anchor="middle" font-weight="normal">μd + σd ⊙ εd</text>
+<rect x="1180" y="125" width="360" height="170" rx="16" fill="#fff7ed" stroke="#bd7025" stroke-width="3"/>
+<text x="1360.0" y="181.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">Drug decoder</text>
+<text x="1360.0" y="220.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">FC → 3 deconv → FC</text>
+<text x="1360.0" y="259.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">reconstruct xd</text>
+<polyline points="295,210 365,210" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="775,210 875,210" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1095,210 1180,210" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="60" y="455" width="235" height="110" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="177.5" y="484.34999999999997" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Target input</text>
+<text x="177.5" y="519.4499999999999" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" fill="#3c6eaf" text-anchor="middle" font-weight="normal">xt</text>
+<text x="177.5" y="554.55" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" fill="#3c6eaf" text-anchor="middle" font-weight="normal">protein sequence</text>
+<rect x="365" y="415" width="410" height="190" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="570.0" y="444.75" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">Target encoder</text>
+<text x="570.0" y="482.45" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">Label + embedding</text>
+<text x="570.0" y="520.15" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">3 gated conv</text>
+<text x="570.0" y="557.85" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">max pool → FC</text>
+<text x="570.0" y="595.55" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#8061a8" text-anchor="middle" font-weight="normal">μt, σt</text>
+<rect x="875" y="455" width="220" height="110" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="985.0" y="501.29999999999995" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#147d87" text-anchor="middle" font-weight="normal">zt</text>
+<text x="985.0" y="539.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#147d87" text-anchor="middle" font-weight="normal">μt + σt ⊙ εt</text>
+<rect x="1180" y="425" width="360" height="170" rx="16" fill="#fff7ed" stroke="#bd7025" stroke-width="3"/>
+<text x="1360.0" y="481.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">Target decoder</text>
+<text x="1360.0" y="520.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">FC → 3 deconv → FC</text>
+<text x="1360.0" y="559.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">reconstruct xt</text>
+<polyline points="295,510 365,510" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="775,510 875,510" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1095,510 1180,510" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="360" y="715" width="335" height="110" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="527.5" y="761.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">Drug feature path</text>
+<text x="527.5" y="800.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">2 FC layers</text>
+<rect x="880" y="715" width="335" height="110" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="1047.5" y="761.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">Target feature path</text>
+<text x="1047.5" y="800.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">2 FC layers</text>
+<polyline points="985,265 985,340 825,340 825,655 528,655 528,715" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="985,565 985,715" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="515" y="910" width="575" height="105" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="802.5" y="953.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">Shared regression block</text>
+<text x="802.5" y="992.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">joint FC → scalar prediction</text>
+<polyline points="528,825 528,866 650,866 650,910" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1047,825 1047,866 955,866 955,910" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="1235" y="910" width="285" height="105" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="1377.5" y="953.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Predicted affinity</text>
+<text x="1377.5" y="992.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">ŷ</text>
+<polyline points="1090,962 1235,962" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M825,495 L825,525" stroke="white" stroke-width="12" fill="none"/>
+<path d="M809,510 L841,510" stroke="#456375" stroke-width="3" fill="none"/>
+<path d="M825,495 C847,495 847,525 825,525" stroke="white" stroke-width="10" fill="none"/>
+<path d="M825,495 C847,495 847,525 825,525" stroke="#456375" stroke-width="3" fill="none"/>
+</svg>

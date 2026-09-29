@@ -1,0 +1,244 @@
+{
+  "source_id": "D1",
+  "topic": "Thesis subsection 2-6; DCGAN-DTA architecture and verified paper evidence",
+  "pdf_path": "D:\\ut\\thesis\\refferences\\final\\GAN-vs-VAE-\\DCGAN-DTA\\paper.pdf",
+  "sha256": "d818f9e9bdb37df27cfbfd25ef858400e87ac3670dbe2132c63785be5a5bd975",
+  "doi": "10.1186/s12864-024-10326-x",
+  "bibtex_key": "Kalemati24DCGANDTA",
+  "bibtex_matched_by": "DOI, title and authors; MyReferences.bib entry starting at line 32",
+  "title": "DCGAN-DTA: Predicting drug-target binding affinity with deep convolutional generative adversarial networks",
+  "authors": [
+    "Mahmood Kalemati",
+    "Mojtaba Zamani Emani",
+    "Somayyeh Koohi"
+  ],
+  "journal": "BMC Genomics",
+  "year": 2024,
+  "volume": 25,
+  "article_number": 411,
+  "article_number_is_not_printed_page": true,
+  "publisher_url": "https://link.springer.com/article/10.1186/s12864-024-10326-x",
+  "metadata_verified_against": "publisher article page and local PDF",
+  "pdf_page_count": 16,
+  "text_searched_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "visually_inspected_pdf_pages": [
+    1,
+    3,
+    4,
+    5,
+    6
+  ],
+  "access_date": "2026-09-29",
+  "page_size_points": [
+    595.276,
+    793.701
+  ],
+  "coordinate_origin": "top-left",
+  "package_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\research\\evidence\\dcgan-dta\\evidence-package.md",
+  "figure": {
+    "id": "D1-F1",
+    "number": 1,
+    "pdf_page": 5,
+    "printed_page": 5,
+    "section": "DCGAN-DTA method (referenced on PDF page 4)",
+    "caption_title": "DCGAN-DTA method for DTA prediction.",
+    "bbox_points_top_left": [
+      49,
+      55,
+      542,
+      699
+    ],
+    "image_path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\figure-1-original.png",
+    "source_embedded_jpeg_pixels": [
+      1488,
+      2129
+    ],
+    "type": "original figure crop including full caption; no redraw or translation",
+    "visual_qa": "complete; all branches, arrows, labels, output marker and caption readable; English, no Persian"
+  },
+  "equation": {
+    "id": "D1-E1",
+    "number": 3,
+    "pdf_page": 6,
+    "printed_page": 6,
+    "section": "Results / Evaluation metrics",
+    "column": "left",
+    "bbox_points_top_left": [
+      50,
+      475,
+      294,
+      517
+    ],
+    "latex_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\research\\evidence\\dcgan-dta\\equation-3-mse.tex",
+    "image_path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\equation-3-original.png",
+    "role": "MSE evaluation metric; NOT verified as training loss or GAN objective",
+    "visual_match": "verified",
+    "symbols": {
+      "P_i": "predicted affinity value",
+      "Y_i": "ground-truth affinity value",
+      "n": "number of samples",
+      "i": "summation index 1..n; no independent prose definition found"
+    },
+    "symbol_definition_source": "PDF 6 / printed 6, left column, paragraph immediately before equation (3)"
+  },
+  "method_objective_equation": {
+    "status": "not found/verified in inspected Method section",
+    "inspected_method_pdf_pages": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "do_not_substitute_standard_gan_formula": true,
+    "supplementary_files_inspected": false
+  },
+  "source_inconsistencies": [
+    {
+      "id": "N1",
+      "figure_fc_bottom_to_top": [
+        1024,
+        1024,
+        512
+      ],
+      "prose_fc": [
+        1024,
+        512,
+        512
+      ],
+      "figure_pdf_page": 5,
+      "prose_pdf_page": 6,
+      "resolution": "unresolved; neither corrected from code"
+    },
+    {
+      "id": "N2",
+      "description": "Figure caption says drug-target interaction (DTA), whereas title/main task is affinity; binary AUPR evaluation handled separately",
+      "pdf_page": 5
+    }
+  ],
+  "license": {
+    "article_license": "CC BY 4.0",
+    "copyright": "The Author(s) 2024",
+    "local_notice_pdf_page": 1,
+    "local_notice_printed_page": "not explicitly labeled",
+    "publisher_notice_url": "https://link.springer.com/article/10.1186/s12864-024-10326-x#rightslink",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "figure_specific_exclusion_seen": false,
+    "checked_figure_credit_locations": [
+      "local PDF page 5 figure and caption",
+      "publisher Figure 1 caption"
+    ],
+    "figure_coverage_reasoning": "publisher and PDF notice cover images unless separately credited; no exception seen for Figure 1",
+    "reuse_conditions": [
+      "credit authors and source",
+      "link CC BY 4.0",
+      "indicate changes"
+    ],
+    "original_republication_or_cited_redraw": "both covered under the inspected license subject to attribution and change marking"
+  },
+  "images_storage": "external temporary directory only; no image included in repository",
+  "external_images": {
+    "dcgan-page-01.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\dcgan-page-01.png",
+      "pixels": [
+        1654,
+        2205
+      ],
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "sha256": "0f375b6ac42c99a1fe8bd5d1cf6c709ee39c5dff78fa2354974190e87e7c5cbe"
+    },
+    "dcgan-page-03.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\dcgan-page-03.png",
+      "pixels": [
+        1654,
+        2205
+      ],
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "sha256": "c3e9349e72d1bf2edc8c298ce533596eb8ee73dd99dfa93b7720b21a372e010b"
+    },
+    "dcgan-page-04.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\dcgan-page-04.png",
+      "pixels": [
+        1654,
+        2205
+      ],
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "sha256": "e6b6a2ec6ebddb041958fd4ce743f744407e9b64695aace58517d01fce9ab908"
+    },
+    "dcgan-page-05.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\dcgan-page-05.png",
+      "pixels": [
+        2481,
+        3308
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "af0869a21f08fae5629dfd853474ba83f552a6c67b225785ab45e546210a3ab7"
+    },
+    "dcgan-page-06.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\dcgan-page-06.png",
+      "pixels": [
+        2481,
+        3308
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "2aaabdce98a157041aeded372057a1d142a32a0e6cfd6863543c7e5aefc3cbb5"
+    },
+    "equation-3-original.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\equation-3-original.png",
+      "pixels": [
+        1017,
+        175
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "1cc0cba635477bbd6e4b77463ec14421530e317f8a16c15723c95f23a91cbd9e"
+    },
+    "figure-1-original.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\dcgan-dta-evidence-ecd665cdb20e467388dcafa3bcca3401\\figure-1-original.png",
+      "pixels": [
+        2055,
+        2684
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "6087170d51a3d64ea979a7df130dbe1b0c8a200430114222fd7ae6fe4f51cf35"
+    }
+  },
+  "latex_compiled": false,
+  "code_or_other_papers_used_to_infer_evidence": false
+}

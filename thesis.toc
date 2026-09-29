@@ -1,78 +1,62 @@
-\contentsline {chapter}{\numberline {1}کلیات پژوهش}{17}{chapter.1}%
-\contentsline {section}{\numberline {1-1}مقدمه}{17}{section.1.1}%
-\contentsline {section}{\numberline {1-2}بیان مسئله}{18}{section.1.2}%
-\contentsline {section}{\numberline {1-3}پیش‌بینی میل اتصال دارو--هدف}{20}{section.1.3}%
-\contentsline {section}{\numberline {1-4}تفاوت برهم‌کنش دارو--هدف و پیش‌بینی میل اتصال}{21}{section.1.4}%
-\contentsline {section}{\numberline {1-5}اهمیت پیش‌بینی میل اتصال دارو--هدف}{21}{section.1.5}%
-\contentsline {section}{\numberline {1-6}چالش‌های محاسباتی پیش‌بینی میل اتصال}{22}{section.1.6}%
-\contentsline {subsection}{\numberline {1-6-1}پیچیدگی ساختار دارو}{22}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1-6-2}پیچیدگی توالی پروتئین}{22}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1-6-3}محدودیت داده‌های برچسب‌دار}{22}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1-6-4}نحوه تقسیم داده‌ها}{23}{subsection.1.6.4}%
-\contentsline {section}{\numberline {1-7}یادگیری عمیق در پیش‌بینی میل اتصال}{23}{section.1.7}%
-\contentsline {section}{\numberline {1-8}مدل‌های مولد}{24}{section.1.8}%
-\contentsline {section}{\numberline {1-9}شبکه‌های مولد تخاصمی}{24}{section.1.9}%
-\contentsline {section}{\numberline {1-10}شبکه‌های مولد تخاصمی عمیق کانولوشنی}{25}{section.1.10}%
-\contentsline {section}{\numberline {1-11}خودرمزگذارهای تغییرپذیر}{25}{section.1.11}%
-\contentsline {section}{\numberline {1-12}مدل \lr {Co-VAE}}{26}{section.1.12}%
-\contentsline {section}{\numberline {1-13}مسئله مقایسه \lr {GAN} و \lr {VAE} در \lr {DTA}}{27}{section.1.13}%
-\contentsline {section}{\numberline {1-14}ضرورت انجام پژوهش}{28}{section.1.14}%
-\contentsline {section}{\numberline {1-15}اهداف پژوهش}{28}{section.1.15}%
-\contentsline {subsection}{\numberline {1-15-1}هدف اصلی}{28}{subsection.1.15.1}%
-\contentsline {subsection}{\numberline {1-15-2}اهداف فرعی}{28}{subsection.1.15.2}%
-\contentsline {section}{\numberline {1-16}پرسش‌های پژوهش}{29}{section.1.16}%
-\contentsline {section}{\numberline {1-17}فرضیه‌های پژوهش}{30}{section.1.17}%
-\contentsline {section}{\numberline {1-18}نوآوری و سهم پژوهش}{30}{section.1.18}%
-\contentsline {section}{\numberline {1-19}محدوده پژوهش}{31}{section.1.19}%
-\contentsline {section}{\numberline {1-20}ساختار پایان‌نامه}{31}{section.1.20}%
-\contentsline {chapter}{\numberline {2}مبانی نظری و پیشینه پژوهش}{33}{chapter.2}%
-\contentsline {section}{\numberline {2-1}مقدمه}{33}{section.2.1}%
-\contentsline {section}{\numberline {2-2}مفاهیم پایه در پیش‌بینی میل اتصال دارو--هدف}{34}{section.2.2}%
-\contentsline {subsection}{\numberline {2-2-1}دارو و لیگاند}{34}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2-2-2}پروتئین هدف}{34}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2-3}برهم‌کنش دارو--هدف}{34}{section.2.3}%
-\contentsline {section}{\numberline {2-4}میل اتصال}{35}{section.2.4}%
-\contentsline {section}{\numberline {2-5}فرمول‌بندی ریاضی مسئله \lr {DTA}}{36}{section.2.5}%
-\contentsline {section}{\numberline {2-6}نمایش دارو}{36}{section.2.6}%
-\contentsline {subsection}{\numberline {2-6-1}نمایش \lr {SMILES}}{37}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2-6-2}نمایش مبتنی بر ویژگی‌های مولکولی}{37}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2-7}نمایش گرافی دارو}{38}{section.2.7}%
-\contentsline {section}{\numberline {2-8}نمایش پروتئین}{39}{section.2.8}%
-\contentsline {subsection}{\numberline {2-8-1}توالی اسیدهای آمینه}{39}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2-8-2}ویژگی‌های تکاملی پروتئین}{39}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2-8-3}ساختار سه‌بعدی پروتئین}{39}{subsection.2.8.3}%
-\contentsline {section}{\numberline {2-9}روش‌های سنتی پیش‌بینی میل اتصال}{40}{section.2.9}%
-\contentsline {section}{\numberline {2-10}یادگیری عمیق در \lr {DTA}}{40}{section.2.10}%
-\contentsline {section}{\numberline {2-11}مدل \lr {DeepDTA}}{40}{section.2.11}%
-\contentsline {section}{\numberline {2-12}مدل \lr {GraphDTA}}{41}{section.2.12}%
-\contentsline {section}{\numberline {2-13}مدل‌های مولد}{42}{section.2.13}%
-\contentsline {section}{\numberline {2-14}شبکه‌های مولد تخاصمی}{42}{section.2.14}%
-\contentsline {section}{\numberline {2-15}فرایند آموزش \lr {GAN}}{43}{section.2.15}%
-\contentsline {section}{\numberline {2-16}شبکه مولد تخاصمی کانولوشنی عمیق}{43}{section.2.16}%
-\contentsline {section}{\numberline {2-17}خودرمزگذار}{44}{section.2.17}%
-\contentsline {section}{\numberline {2-18}خودرمزگذار تغییرپذیر}{44}{section.2.18}%
-\contentsline {section}{\numberline {2-19}ترفند بازپارامتری‌سازی}{45}{section.2.19}%
-\contentsline {section}{\numberline {2-20}تابع هدف \lr {VAE}}{45}{section.2.20}%
-\contentsline {section}{\numberline {2-21}مقایسه مفهومی \lr {GAN} و \lr {VAE}}{46}{section.2.21}%
-\contentsline {section}{\numberline {2-22}مدل \lr {Co-VAE}}{46}{section.2.22}%
-\contentsline {section}{\numberline {2-23}ایده هم‌منظم‌سازی}{47}{section.2.23}%
-\contentsline {section}{\numberline {2-24}کاربرد \lr {Co-VAE} در \lr {DTA}}{47}{section.2.24}%
-\contentsline {section}{\numberline {2-25}مدل \lr {DCGAN-DTA}}{48}{section.2.25}%
-\contentsline {section}{\numberline {2-26}مرحله کدگذاری و تعبیه‌سازی در \lr {DCGAN-DTA}}{48}{section.2.26}%
-\contentsline {section}{\numberline {2-27}استخراج ویژگی در \lr {DCGAN-DTA}}{48}{section.2.27}%
-\contentsline {section}{\numberline {2-28}ادغام نمایش‌های نهفته}{49}{section.2.28}%
-\contentsline {section}{\numberline {2-29}بخش پیش‌بینی \lr {DCGAN-DTA}}{49}{section.2.29}%
-\contentsline {section}{\numberline {2-30}داده‌های مورد استفاده در مطالعات \lr {DTA}}{50}{section.2.30}%
-\contentsline {section}{\numberline {2-31}مجموعه داده \lr {Davis}}{50}{section.2.31}%
-\contentsline {section}{\numberline {2-32}مجموعه داده \lr {KIBA}}{51}{section.2.32}%
-\contentsline {section}{\numberline {2-33}مجموعه داده \lr {BindingDB}}{51}{section.2.33}%
-\contentsline {section}{\numberline {2-34}مجموعه داده \lr {PDBbind}}{51}{section.2.34}%
-\contentsline {section}{\numberline {2-35}روش‌های تقسیم داده}{52}{section.2.35}%
-\contentsline {section}{\numberline {2-36}معیارهای ارزیابی}{52}{section.2.36}%
-\contentsline {subsection}{\numberline {2-36-1}میانگین مربعات خطا}{53}{subsection.2.36.1}%
-\contentsline {subsection}{\numberline {2-36-2}شاخص سازگاری}{53}{subsection.2.36.2}%
-\contentsline {subsection}{\numberline {2-36-3}مساحت زیر منحنی دقت--فراخوانی}{53}{subsection.2.36.3}%
-\contentsline {section}{\numberline {2-37}مقایسه کلی مدل‌های مورد بررسی}{54}{section.2.37}%
-\contentsline {section}{\numberline {2-38}مقایسه \lr {Co-VAE} و \lr {DCGAN-DTA}}{54}{section.2.38}%
-\contentsline {section}{\numberline {2-39}جایگاه پژوهش حاضر}{54}{section.2.39}%
-\contentsline {section}{\numberline {2-40}جمع‌بندی فصل}{56}{section.2.40}%
+\contentsline {chapter}{\numberline {1}کلیات پژوهش}{16}{chapter.1}%
+\contentsline {section}{\numberline {1-1}مقدمه}{16}{section.1.1}%
+\contentsline {section}{\numberline {1-2}بیان مسئله}{17}{section.1.2}%
+\contentsline {section}{\numberline {1-3}تعریف موضوع و کمیت خروجی پژوهش}{18}{section.1.3}%
+\contentsline {subsection}{\numberline {1-3-1}مرز DTI، DTA و DDI}{18}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1-3-2}تعریف محاسباتی مسئله}{18}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1-3-3}بازنمایی و روش ترکیبی مورد نظر}{18}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1-4}اهمیت و ضرورت پژوهش}{19}{section.1.4}%
+\contentsline {section}{\numberline {1-5}هدف اصلی و اهداف فرعی}{19}{section.1.5}%
+\contentsline {section}{\numberline {1-6}پرسش‌های پژوهش}{20}{section.1.6}%
+\contentsline {section}{\numberline {1-7}سهم پیشنهادی و شکاف پژوهشی}{21}{section.1.7}%
+\contentsline {section}{\numberline {1-8}دامنه، فرض‌ها و وضعیت روش پیشنهادی}{21}{section.1.8}%
+\contentsline {section}{\numberline {1-9}چارچوب ارزیابی پژوهش}{22}{section.1.9}%
+\contentsline {section}{\numberline {1-10}ساختار پایان‌نامه}{22}{section.1.10}%
+\contentsline {chapter}{\numberline {2}مبانی نظری و پیشینهٔ پژوهش}{23}{chapter.2}%
+\contentsline {section}{\numberline {2-1}مقدمه}{23}{section.2.1}%
+\contentsline {section}{\numberline {2-2}مبانی زیستی و معنای میل اتصال}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {2-2-1}دارو، هدف و اتصال}{23}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2-2-2}تفاوت ثابت‌های اتصال و کمیت‌های مهار}{24}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2-2-3}واحد و تبدیل لگاریتمی}{25}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2-3}داده‌های DTA و شرایط تعمیم}{25}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}منشأ داده و نسخهٔ آماده‌شده}{25}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2-3-2}زوج جدید و موجودیت جدید}{26}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2-3-3}اعتبارسنجی و مقایسه}{26}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2-4}نمایش دارو و پروتئین}{27}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}رشتهٔ SMILES و نمایش گرافی دارو}{27}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2-4-2}توالی پروتئین، تعبیه و کانولوشن}{27}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2-4-3}ورودی خام، ویژگی میانی و پیش‌بینی}{27}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2-5}از روش‌های مبتنی بر شباهت تا یادگیری عمیق}{28}{section.2.5}%
+\contentsline {subsection}{\numberline {2-5-1}کرنل و فاکتورگیری ماتریس}{28}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2-5-2}ویژگی‌های مهندسی‌شده و SimBoost}{28}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2-5-3}DeepDTA}{28}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2-5-4}GraphDTA و WideDTA}{29}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2-5-5}جمع‌بندی مسیر روش‌ها}{29}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2-6}یادگیری تخاصمی و DCGAN}{30}{section.2.6}%
+\contentsline {subsection}{\numberline {2-6-1}انگیزه و منطق GAN}{30}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2-6-2}هدف و آموزش متناوب}{31}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2-6-3}از GAN به DCGAN}{31}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2-7}خودرمزگذار واریاسیونی و بازنمایی نهان}{33}{section.2.7}%
+\contentsline {subsection}{\numberline {2-7-1}از بازسازی به مدل احتمالاتی}{33}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2-7-2}کران پایین شواهد}{34}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2-7-3}بازپارامتردهی و نقش نمادها}{34}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2-8}معماری و روش \lr {DCGAN-DTA}}{35}{section.2.8}%
+\contentsline {subsection}{\numberline {2-8-1}مسیر چهارمرحله‌ایِ پیش‌بینی}{35}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2-8-2}پیش‌آموزش تخاصمی و استخراج ویژگی}{35}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2-8-3}ادغام و خروجی رگرسیون}{35}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2-8-4}دامنهٔ نتایج منتشرشده}{37}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2-9}معماری و هدف یادگیری \lr {Co-VAE}}{41}{section.2.9}%
+\contentsline {subsection}{\numberline {2-9-1}دو مسیر واریاسیونی و یک پیش‌بینی مشترک}{41}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2-9-2}کران مشترک و تابع هدف}{42}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2-9-3}آزمون موجودیت جدید و حدود نتایج}{43}{subsection.2.9.3}%
+\contentsline {section}{\numberline {2-10}معیارهای ارزیابیِ پیش‌بینی اتصال}{46}{section.2.10}%
+\contentsline {subsection}{\numberline {2-10-1}کمیت ارزیابی و قرارداد نمادها}{46}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2-10-2}خطای مربعی، خطای مطلق و RMSE}{46}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2-10-3}شاخص توافق رتبه‌ای}{47}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2-10-4}معیار $r_m^2$}{48}{subsection.2.10.4}%
+\contentsline {subsection}{\numberline {2-10-5}AUPR و معیارهای طبقه‌بندیِ مکمل}{49}{subsection.2.10.5}%
+\contentsline {subsection}{\numberline {2-10-6}معیارهای موجود در اجرای پروژه}{50}{subsection.2.10.6}%
+\contentsline {section}{\numberline {2-11}مقایسهٔ مفهومی و مبنای ترکیب بازنمایی‌ها}{51}{section.2.11}%
+\contentsline {subsection}{\numberline {2-11-1}تفاوت هدف‌ها و محل ترکیب}{51}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2-11-2}معنای محدب بودن در مسئلهٔ وزن}{51}{subsection.2.11.2}%
+\contentsline {section}{\numberline {2-12}جمع‌بندی پیشینه و پیوند با پژوهش}{52}{section.2.12}%

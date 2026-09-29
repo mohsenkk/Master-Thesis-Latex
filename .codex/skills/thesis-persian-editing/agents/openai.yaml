@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thesis Persian Editing"
+  short_description: "Edit Persian scientific thesis prose with evidence"
+  default_prompt: "Use $thesis-persian-editing to revise this Persian thesis section while preserving its sources and scientific scope."

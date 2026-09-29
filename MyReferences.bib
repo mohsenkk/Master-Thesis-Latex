@@ -17,9 +17,10 @@
   author    = {Ian J. Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu
                and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio},
   title     = {Generative Adversarial Nets},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  booktitle = {Advances in Neural Information Processing Systems},
   volume    = {27},
   year      = {2014},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html},
 }
 
 @INPROCEEDINGS{Kingma14VAE,
@@ -27,6 +28,9 @@
   title     = {Auto-Encoding Variational Bayes},
   booktitle = {International Conference on Learning Representations (ICLR)},
   year      = {2014},
+  eprint    = {1312.6114},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/1312.6114},
 }
 
 @ARTICLE{Kalemati24DCGANDTA,
@@ -40,7 +44,7 @@
 }
 
 @ARTICLE{Li22CoVAE,
-  author  = {T. Li and Xing-Ming Zhao and L. Li},
+  author  = {Tianjiao Li and Xing-Ming Zhao and Limin Li},
   title   = {{Co-VAE}: Drug-Target Binding Affinity Prediction by Co-Regularized Variational Autoencoders},
   journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   volume  = {44},
@@ -66,6 +70,9 @@
   title     = {Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks},
   booktitle = {International Conference on Learning Representations (ICLR)},
   year      = {2016},
+  eprint    = {1511.06434},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/1511.06434},
 }
 
 @ARTICLE{Wang04PDBbind,
@@ -94,14 +101,17 @@
 %  مراجع افزوده‌شده در فصل دوم
 %======================================================================
 
-@ARTICLE{Ozturk19WideDTA,
+% Verified against https://arxiv.org/abs/1902.04166 (title/authors/year/identifier).
+% The former Bioinformatics 35(4):575--582 attribution for this key is UNCONFIRMED.
+% This entry explicitly cites the confirmed preprint; it does not resolve a journal publication.
+@MISC{Ozturk19WideDTA,
   author  = {Hakime {\"O}zt{\"u}rk and Elif Ozkirimli and Arzucan {\"O}zg{\"u}r},
-  title   = {{WideDTA}: prediction of drug-target binding affinity with deep learning},
-  journal = {Bioinformatics},
-  volume  = {35},
-  number  = {4},
-  pages   = {575--582},
+  title   = {{WideDTA}: prediction of drug-target binding affinity},
   year    = {2019},
+  howpublished = {arXiv preprint arXiv:1902.04166},
+  eprint  = {1902.04166},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/1902.04166},
 }
 
 @ARTICLE{Mayr16DeepTox,
@@ -109,4 +119,159 @@
   title   = {{DeepTox}: toxicity prediction using deep learning},
   journal = {Frontiers in Environmental Science},
   year    = {2016},
+}
+
+% Verified additions for the working versions of chapters 1 and 2.
+% Metadata checked against the primary source URL/DOI recorded in each entry.
+@ARTICLE{He17SimBoost,
+  author  = {Tong He and Marten Heidemeyer and Fuqiang Ban and Artem Cherkasov and Martin Ester},
+  title   = {{SimBoost}: a read-across approach for predicting drug--target binding affinities using gradient boosting machines},
+  journal = {Journal of Cheminformatics},
+  volume  = {9},
+  pages   = {24},
+  year    = {2017},
+  doi     = {10.1186/s13321-017-0209-z},
+  url     = {https://link.springer.com/article/10.1186/s13321-017-0209-z},
+}
+
+@ARTICLE{Pahikkala15RealisticDTA,
+  author  = {Tapio Pahikkala and Antti Airola and Sami Pietil{\"a} and Sushil Shakyawar and Agnieszka Szwajda and Jing Tang and Tero Aittokallio},
+  title   = {Toward more realistic drug--target interaction predictions},
+  journal = {Briefings in Bioinformatics},
+  volume  = {16},
+  number  = {2},
+  pages   = {325--337},
+  year    = {2015},
+  doi     = {10.1093/bib/bbu010},
+  url     = {https://academic.oup.com/bib/article/16/2/325/246479},
+}
+
+@ARTICLE{Liu16NRLMF,
+  author  = {Yong Liu and Min Wu and Chunyan Miao and Peilin Zhao and Xiao-Li Li},
+  title   = {Neighborhood Regularized Logistic Matrix Factorization for Drug-Target Interaction Prediction},
+  journal = {PLOS Computational Biology},
+  volume  = {12},
+  number  = {2},
+  pages   = {e1004760},
+  year    = {2016},
+  doi     = {10.1371/journal.pcbi.1004760},
+  url     = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004760},
+}
+
+@BOOK{Boyd04ConvexOptimization,
+  author    = {Stephen Boyd and Lieven Vandenberghe},
+  title     = {Convex Optimization},
+  publisher = {Cambridge University Press},
+  year      = {2004},
+  isbn      = {9780521833783},
+  url       = {https://web.stanford.edu/~boyd/cvxbook/},
+}
+
+@ARTICLE{Hulme10BindingAssays,
+  author  = {Edward C. Hulme and Mike A. Trevethick},
+  title   = {Ligand binding assays at equilibrium: validation and interpretation},
+  journal = {British Journal of Pharmacology},
+  volume  = {161},
+  number  = {6},
+  pages   = {1219--1237},
+  year    = {2010},
+  doi     = {10.1111/j.1476-5381.2009.00604.x},
+  url     = {https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/j.1476-5381.2009.00604.x},
+}
+
+@INCOLLECTION{Campbell12AssayData,
+  author    = {Robert M. Campbell and Julia Dymshitz and Brian J. Eastwood and Renee Emkey and David P. Greenen and Julia M. Heerding and Dwayne Johnson and Thomas H. Large and Thomas Littlejohn and Chahrzad Montrose and Suzanne E. Nutter and Barry D. Sawyer and Sandra K. Sigmund and Martin Smith and Jeffrey R. Weidner and Richard W. Zink},
+  title     = {Data Standardization for Results Management},
+  booktitle = {Assay Guidance Manual},
+  publisher = {Eli Lilly \& Company and the National Center for Advancing Translational Sciences},
+  address   = {Bethesda (MD)},
+  year      = {2012},
+  url       = {https://www.ncbi.nlm.nih.gov/sites/books/NBK91993/},
+  note      = {NCBI Bookshelf ID: NBK91993; updated October 20, 2017},
+}
+
+@ARTICLE{Bento14ChEMBL,
+  author  = {A. Patr{\'i}cia Bento and Anna Gaulton and Anne Hersey and Louisa J. Bellis and Jon Chambers and Mark Davies and Felix A. Kr{\"u}ger and Yvonne Light and Lora Mak and Shaun McGlinchey and Michal Nowotka and George Papadatos and Rita Santos and John P. Overington},
+  title   = {The {ChEMBL} bioactivity database: an update},
+  journal = {Nucleic Acids Research},
+  volume  = {42},
+  number  = {D1},
+  pages   = {D1083--D1090},
+  year    = {2014},
+  doi     = {10.1093/nar/gkt1031},
+  url     = {https://academic.oup.com/nar/article/42/D1/D1083/1043509},
+}
+% Bento et al.: issue year 2014; online publication 7 November 2013 (publisher record).
+
+@ARTICLE{Chai14Errors,
+  author  = {T. Chai and R. R. Draxler},
+  title   = {Root mean square error ({RMSE}) or mean absolute error ({MAE})? -- Arguments against avoiding {RMSE} in the literature},
+  journal = {Geoscientific Model Development},
+  volume  = {7},
+  number  = {3},
+  pages   = {1247--1250},
+  year    = {2014},
+  doi     = {10.5194/gmd-7-1247-2014},
+  url     = {https://gmd.copernicus.org/articles/7/1247/2014/},
+}
+
+@ARTICLE{Weininger88SMILES,
+  author  = {David Weininger},
+  title   = {{SMILES}, a chemical language and information system. 1. Introduction to methodology and encoding rules},
+  journal = {Journal of Chemical Information and Computer Sciences},
+  volume  = {28},
+  number  = {1},
+  pages   = {31--36},
+  year    = {1988},
+  doi     = {10.1021/ci00057a005},
+  url     = {https://doi.org/10.1021/ci00057a005},
+}
+% Weininger: publisher DOI metadata and first page of the original publisher PDF checked.
+
+% Chapter rewrite: verified publisher/DOI metadata; inspection levels in research/evidence/chapter-rewrite-20260929/.
+@ARTICLE{Saito15PR,
+  author  = {Takaya Saito and Marc Rehmsmeier},
+  title   = {The Precision-Recall Plot Is More Informative than the {ROC} Plot When Evaluating Binary Classifiers on Imbalanced Datasets},
+  journal = {PLOS ONE},
+  volume  = {10},
+  number  = {3},
+  pages   = {e0118432},
+  year    = {2015},
+  doi     = {10.1371/journal.pone.0118432},
+  url     = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432},
+}
+
+@ARTICLE{Zeng24DTAReview,
+  author  = {Xin Zeng and Shu-Juan Li and Shuang-Qing Lv and Meng-Liang Wen and Yi Li},
+  title   = {A comprehensive review of the recent advances on predicting drug-target affinity based on deep learning},
+  journal = {Frontiers in Pharmacology},
+  volume  = {15},
+  pages   = {1375522},
+  year    = {2024},
+  doi     = {10.3389/fphar.2024.1375522},
+  url     = {https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1375522/full},
+}
+
+@ARTICLE{Tang14KIBA,
+  author  = {Jing Tang and Agnieszka Szwajda and Sushil Shakyawar and Tao Xu and Petteri Hintsanen and Krister Wennerberg and Tero Aittokallio},
+  title   = {Making Sense of Large-Scale Kinase Inhibitor Bioactivity Data Sets: A Comparative and Integrative Analysis},
+  journal = {Journal of Chemical Information and Modeling},
+  volume  = {54},
+  number  = {3},
+  pages   = {735--743},
+  year    = {2014},
+  doi     = {10.1021/ci400709d},
+  url     = {https://pubs.acs.org/doi/10.1021/ci400709d},
+}
+
+@ARTICLE{Davis11Kinase,
+  author  = {Mindy I. Davis and Jeremy P. Hunt and Sanna Herrgard and Pietro Ciceri and Lisa M. Wodicka and Gabriel Pallares and Michael Hocker and Daniel K. Treiber and Patrick P. Zarrinkar},
+  title   = {Comprehensive analysis of kinase inhibitor selectivity},
+  journal = {Nature Biotechnology},
+  volume  = {29},
+  number  = {11},
+  pages   = {1046--1051},
+  year    = {2011},
+  doi     = {10.1038/nbt.1990},
+  url     = {https://doi.org/10.1038/nbt.1990},
 }

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#456375"/></marker></defs>
+<rect width="1600" height="900" fill="white"/>
+<text x="800.0" y="59" font-family="Arial, DejaVu Sans, sans-serif" font-size="43" fill="#15354a" text-anchor="middle" font-weight="bold">GAN: sample flow and alternating training</text>
+<text x="800.0" y="106" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#557084" text-anchor="middle" font-weight="normal">Independent explanatory diagram — Goodfellow et al. (2014), Eq. 1 and Algorithm 1</text>
+<rect x="70" y="180" width="230" height="105" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="185.0" y="223.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Noise z</text>
+<text x="185.0" y="262.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">z ~ pz</text>
+<rect x="385" y="180" width="265" height="105" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="517.5" y="223.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">Generator G</text>
+<text x="517.5" y="262.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">G(z)</text>
+<rect x="745" y="180" width="260" height="105" rx="16" fill="#fff7ed" stroke="#bd7025" stroke-width="3"/>
+<text x="875.0" y="223.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">Generated sample</text>
+<text x="875.0" y="262.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#bd7025" text-anchor="middle" font-weight="normal">G(z)</text>
+<rect x="745" y="385" width="260" height="105" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="875.0" y="428.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Real sample x</text>
+<text x="875.0" y="467.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">x ~ pdata</text>
+<rect x="1190" y="275" width="300" height="160" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="1340.0" y="326.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">Discriminator D</text>
+<text x="1340.0" y="365.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">real-data score</text>
+<text x="1340.0" y="404.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">D(·)</text>
+<polyline points="300,232 385,232" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="650,232 745,232" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1005,232 1120,232 1120,322 1190,322" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1005,437 1120,437 1120,382 1190,382" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<text x="800" y="565" font-family="Arial, DejaVu Sans, sans-serif" font-size="35" fill="#15354a" text-anchor="middle" font-weight="bold">Training cycle (Algorithm 1)</text>
+<rect x="80" y="620" width="455" height="150" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="307.5" y="666.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">k discriminator updates</text>
+<text x="307.5" y="705.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">ascend its objective</text>
+<text x="307.5" y="744.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#8061a8" text-anchor="middle" font-weight="normal">generator parameters fixed</text>
+<rect x="620" y="620" width="455" height="150" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="847.5" y="666.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">one generator update</text>
+<text x="847.5" y="705.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">descend log(1 − D(G(z)))</text>
+<text x="847.5" y="744.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#147d87" text-anchor="middle" font-weight="normal">discriminator parameters fixed</text>
+<rect x="1190" y="620" width="300" height="150" rx="16" fill="#eff8f8" stroke="#3c6eaf" stroke-width="3"/>
+<text x="1340.0" y="686.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">Next minibatch</text>
+<text x="1340.0" y="725.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#3c6eaf" text-anchor="middle" font-weight="normal">repeat</text>
+<polyline points="535,695 620,695" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="1075,695 1190,695" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<text x="800" y="840" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" fill="#15354a" text-anchor="middle" font-weight="normal">D&#x27;s real/fake score is not a drug–target affinity prediction.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#456375"/></marker></defs>
+<rect width="1600" height="920" fill="white"/>
+<text x="800.0" y="59" font-family="Arial, DejaVu Sans, sans-serif" font-size="43" fill="#15354a" text-anchor="middle" font-weight="bold">Co-VAE: latent dependencies and joint objective</text>
+<text x="800.0" y="106" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#557084" text-anchor="middle" font-weight="normal">Independent explanation — Figure 2 and Eq. 5; the original IEEE image is not reproduced</text>
+<text x="380" y="170" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" fill="#15354a" text-anchor="middle" font-weight="bold">Generative dependencies</text>
+<circle cx="195" cy="270" r="60" fill="white" stroke="#147d87" stroke-width="3"/>
+<text x="195" y="281.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#147d87" text-anchor="middle" font-weight="normal">zd</text>
+<circle cx="560" cy="270" r="60" fill="white" stroke="#147d87" stroke-width="3"/>
+<text x="560" y="281.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#147d87" text-anchor="middle" font-weight="normal">zt</text>
+<text x="195" y="199" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#15354a" text-anchor="middle" font-weight="normal">pθd(zd)</text>
+<text x="560" y="199" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" fill="#15354a" text-anchor="middle" font-weight="normal">pθt(zt)</text>
+<circle cx="195" cy="525" r="60" fill="#e9eef3" stroke="#3c6eaf" stroke-width="3"/>
+<text x="195" y="536.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#3c6eaf" text-anchor="middle" font-weight="normal">xd</text>
+<circle cx="560" cy="525" r="60" fill="#e9eef3" stroke="#3c6eaf" stroke-width="3"/>
+<text x="560" y="536.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#3c6eaf" text-anchor="middle" font-weight="normal">xt</text>
+<circle cx="380" cy="765" r="60" fill="#e9eef3" stroke="#3c6eaf" stroke-width="3"/>
+<text x="380" y="776.9" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" fill="#3c6eaf" text-anchor="middle" font-weight="normal">y</text>
+<polyline points="195,330 195,465" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="560,330 560,465" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="235,313 355,710" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="520,313 405,710" fill="none" stroke="#456375" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="65" y="371" width="260" height="47" fill="white"/>
+<rect x="430" y="371" width="260" height="47" fill="white"/>
+<text x="195" y="402" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" fill="#15354a" text-anchor="middle" font-weight="normal">pθd(xd|zd)</text>
+<text x="560" y="402" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" fill="#15354a" text-anchor="middle" font-weight="normal">pθt(xt|zt)</text>
+<text x="380" y="870" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" fill="#15354a" text-anchor="middle" font-weight="normal">pθy(y|zd,zt)</text>
+<text x="1145" y="170" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" fill="#15354a" text-anchor="middle" font-weight="bold">Joint ELBO components</text>
+<rect x="835" y="225" width="625" height="150" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="1147.5" y="290.4" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" fill="#8061a8" text-anchor="middle" font-weight="normal">DrugVAE</text>
+<text x="1147.5" y="332.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" fill="#8061a8" text-anchor="middle" font-weight="normal">expected log reconstruction − KL</text>
+<rect x="835" y="420" width="625" height="150" rx="16" fill="#f7f2fb" stroke="#8061a8" stroke-width="3"/>
+<text x="1147.5" y="485.4" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" fill="#8061a8" text-anchor="middle" font-weight="normal">TargetVAE</text>
+<text x="1147.5" y="527.0" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" fill="#8061a8" text-anchor="middle" font-weight="normal">expected log reconstruction − KL</text>
+<rect x="835" y="615" width="625" height="150" rx="16" fill="#eff8f8" stroke="#147d87" stroke-width="3"/>
+<text x="1147.5" y="680.0999999999999" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" fill="#147d87" text-anchor="middle" font-weight="normal">CoREG</text>
+<text x="1147.5" y="722.9999999999999" font-family="Arial, DejaVu Sans, sans-serif" font-size="33" fill="#147d87" text-anchor="middle" font-weight="normal">E log pθy(y | zd, zt)</text>
+<text x="1150" y="845" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" fill="#15354a" text-anchor="middle" font-weight="normal">L = LDrugVAE + LTargetVAE + LCoREG</text>
+<text x="1150" y="890" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" fill="#147d87" text-anchor="middle" font-weight="bold">maximize the joint lower bound</text>
+</svg>

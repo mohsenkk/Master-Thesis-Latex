@@ -1,0 +1,25 @@
+\begin{equation}
+\begin{aligned}
+\log p_{\theta}(\mathbf{x}_{d}^{i},\mathbf{x}_{t}^{i},y^{i})
+&\geq \mathcal{L}(\theta,\phi;\mathbf{x}_{d}^{i},\mathbf{x}_{t}^{i},y^{i}) =\\
+&\underbrace{
+\mathbb{E}_{q_{\phi_d}(\mathbf{z}_{d}\mid\mathbf{x}_{d}^{i})}
+\log p_{\theta_d}(\mathbf{x}_{d}^{i}\mid\mathbf{z}_{d})
+-D_{KL}\!\left(q_{\phi_d}(\mathbf{z}_{d}\mid\mathbf{x}_{d}^{i})
+\Vert p_{\theta_d}(\mathbf{z}_{d})\right)
+}_{\mathcal{L}_{\mathrm{DrugVAE}}}\\
+&+\underbrace{
+\mathbb{E}_{q_{\phi_t}(\mathbf{z}_{t}\mid\mathbf{x}_{t}^{i})}
+\log p_{\theta_t}(\mathbf{x}_{t}^{i}\mid\mathbf{z}_{t})
+-D_{KL}\!\left(q_{\phi_t}(\mathbf{z}_{t}\mid\mathbf{x}_{t}^{i})
+\Vert p_{\theta_t}(\mathbf{z}_{t})\right)
+}_{\mathcal{L}_{\mathrm{TargetVAE}}}\\
+&+\underbrace{
+\mathbb{E}_{q_{\phi}(\mathbf{z}_{d},\mathbf{z}_{t}
+\mid\mathbf{x}_{d}^{i},\mathbf{x}_{t}^{i})}
+\log p_{\theta_y}(y^{i}\mid\mathbf{z}_{d},\mathbf{z}_{t})
+}_{\mathcal{L}_{\mathrm{CoREG}}}.
+\end{aligned}
+\tag{5}
+\end{equation}
+

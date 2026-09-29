@@ -1,0 +1,152 @@
+{
+  "source_id": "S1",
+  "pdf_path": "D:\\ut\\thesis\\refferences\\final\\GAN-vs-VAE-\\Co-VAE\\papaer.pdf",
+  "sha256": "3cc576be305f49b1ae65138c3d853d5656bfb462e6b8ebe7fe40b01567091de8",
+  "doi": "10.1109/TPAMI.2021.3120428",
+  "bibtex_key": "Li22CoVAE",
+  "pdf_page_count": 13,
+  "visually_inspected_pdf_pages": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "access_date": "2026-09-29",
+  "equation": {
+    "number": 5,
+    "pdf_page": 4,
+    "printed_page": 8864,
+    "section": "2.3",
+    "column": "right",
+    "bbox_points_top_left": [
+      286,
+      207,
+      542,
+      350
+    ],
+    "latex_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\research\\evidence\\co-vae\\equation-5.tex",
+    "visual_match": "verified"
+  },
+  "figure": {
+    "number": 4,
+    "pdf_page": 6,
+    "printed_page": 8866,
+    "column": "left",
+    "bbox_points_top_left": [
+      24,
+      43,
+      283,
+      514
+    ],
+    "type": "original crop, not redraw",
+    "visual_qa": "complete and readable; English and math; no Persian"
+  },
+  "license": {
+    "pdf_notice": "2021 IEEE copyright; personal use permitted; republication/redistribution requires IEEE permission",
+    "source_pdf_page": 1,
+    "source_printed_page": 8861,
+    "vor_license_url": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+    "specific_reuse_permission": "not obtained or verified",
+    "article_page_access": "JavaScript robot verification"
+  },
+  "images": {
+    "co-vae-page-01.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\co-vae-page-01.png",
+      "pixels": [
+        1256,
+        1714
+      ],
+      "dpi": [
+        159.9946,
+        159.9946
+      ]
+    },
+    "co-vae-page-03.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\co-vae-page-03.png",
+      "pixels": [
+        1256,
+        1714
+      ],
+      "dpi": [
+        159.9946,
+        159.9946
+      ]
+    },
+    "co-vae-page-04.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\co-vae-page-04.png",
+      "pixels": [
+        2354,
+        3213
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "co-vae-page-05.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\co-vae-page-05.png",
+      "pixels": [
+        1256,
+        1714
+      ],
+      "dpi": [
+        159.9946,
+        159.9946
+      ]
+    },
+    "co-vae-page-06.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\co-vae-page-06.png",
+      "pixels": [
+        2354,
+        3213
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "equation-5-original.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\equation-5-original.png",
+      "pixels": [
+        1067,
+        595
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "figure-4-original.png": {
+      "path": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9\\figure-4-original.png",
+      "pixels": [
+        1079,
+        1963
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  "extraction_warnings": [
+    "Symbol and ArialUnicode display fonts unavailable in Poppler",
+    "text encoding corrupts some mathematical glyphs"
+  ],
+  "latex_compiled": false,
+  "package_path": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\research\\evidence\\co-vae\\evidence-package.md",
+  "images_storage": "external temporary directory; no IEEE image included in repository",
+  "migration": {
+    "date": "2026-09-29",
+    "from": "C:\\Users\\Snapp\\AppData\\Local\\Temp\\thesis-paper-evidence-6b4591f0d495455f9203e5f807298ba9",
+    "to": "D:\\ut\\thesis\\final\\Master-Thesis-Latex\\research\\evidence\\co-vae",
+    "action": "moved three text files only",
+    "source_text_sha256_before_path_updates": {
+      "equation-5.tex": "cfdd5d0e0718a7faa8e69997eecb326cc7d0298a35bfaa585e2d2bea83befc6d",
+      "evidence-package.md": "d5d719b97acc2d1be9ccc403c8dd05922b63b23330dd930a3c876feea3adca7f",
+      "manifest.json": "bfe94d710f3ad16f244e9be0093d0543df02eac1fd28569d90043814e925500e"
+    },
+    "latex_content_changed": false,
+    "source_images_copied": false,
+    "temp_images_may_expire": true
+  }
+}
